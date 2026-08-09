@@ -39,8 +39,9 @@ Of course Codex's users include programmers. But I believe it also welcomes peop
 | 2 | 💬 说人话 | 指令公式：角色+任务+上下文+验收 | [full](playbook/en/full.md#chapter-3-the-secret-to-speaking-plainly) |
 | 3 | 📐 AGENTS.md | 让 Codex 记住你的规矩 | [full](playbook/en/full.md#chapter-4-agentsmd) |
 | 4 | 🧩 Skills | 把常用能力封装成技能包 | [full](playbook/en/full.md#chapter-5-skills) |
-| 5 | 🔄 工作流 | 写作→仓库、内容自动化、批量 | [full](playbook/en/full.md#chapter-6-real-workflows) |
-| 6 | ⚠️ 常见坑 | 五个血泪教训 | [full](playbook/en/full.md#chapter-7-common-traps) |
+| 5 | 🔄 工作流 | 从需求到交付的六步法 | [workflow](playbook/en/workflow.md) |
+| 6 | 🧰 模板库 | 8 个可直接复制的任务模板 | [workflow](playbook/en/workflow.md#task-template-library) |
+| 7 | ⚠️ 常见坑 | 五个血泪教训 | [full](playbook/en/full.md#chapter-7-common-traps) |
 
 ### Difficulty / 难度分级
 
@@ -61,10 +62,12 @@ codex-playbook/
 ├── README.zh-CN.md        ← 中文版
 ├── playbook/              ← 手册正文 (Chinese)
 │   ├── full.md            ← 完整版
+│   ├── workflow.md        ← 六步法 + 任务模板库
 │   ├── mini.md            ← 一页版
 │   └── nano.md            ← 背下来版
 ├── playbook/en/           ← The manual (English)
 │   ├── full.md
+│   ├── workflow.md
 │   ├── mini.md
 │   └── nano.md
 ├── examples/              ← 实战案例

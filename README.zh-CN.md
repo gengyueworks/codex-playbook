@@ -46,8 +46,9 @@ Codex 的用户当然包括程序员。但我想它也一定欢迎像我这样�
 | 2 | 💬 说人话 | 指令公式：角色+任务+上下文+验收 | [full](playbook/full.md#第三章) |
 | 3 | 📐 AGENTS.md | 让 Codex 记住你的规矩 | [full](playbook/full.md#第四章) |
 | 4 | 🧩 Skills | 把常用能力封装成技能包 | [full](playbook/full.md#第五章) |
-| 5 | 🔄 工作流 | 写作→仓库、内容自动化、批量 | [full](playbook/full.md#第六章) |
-| 6 | ⚠️ 常见坑 | 五个血泪教训 | [full](playbook/full.md#第七章) |
+| 5 | 🔄 工作流 | 从需求到交付的六步法 | [workflow](playbook/workflow.md) |
+| 6 | 🧰 模板库 | 8 个可直接复制的任务模板 | [workflow](playbook/workflow.md#任务模板库) |
+| 7 | ⚠️ 常见坑 | 五个血泪教训 | [full](playbook/full.md#第七章) |
 
 ### 难度分级
 
@@ -68,8 +69,14 @@ codex-playbook/
 ├── README.zh-CN.md        ← 中文版
 ├── playbook/              ← 手册正文
 │   ├── full.md            ← 完整版
+│   ├── workflow.md        ← 六步法 + 任务模板库
 │   ├── mini.md            ← 一页版
 │   └── nano.md            ← 背下来版
+├── playbook/en/           ← The manual (English)
+│   ├── full.md
+│   ├── workflow.md
+│   ├── mini.md
+│   └── nano.md
 ├── examples/              ← 实战案例
 │   ├── daily-auto-update.md
 │   ├── repo-from-essay.md
