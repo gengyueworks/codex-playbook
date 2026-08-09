@@ -3,7 +3,7 @@
 > **一个文科生的 Codex 实战手册** · 不会写代码，也能用 Codex 把事干成。
 > A non-programmer's field-tested Codex playbook — no CS degree required.
 
-**我一周前刚注册 GitHub，不会写代码，用 Codex 建了 100+ 个仓库。这本手册记录我怎么用，也记录踩过的坑。**
+**我注册 GitHub 很多年了，但一直有个心结：不会写代码，很多想法想动手却总找不到得心应手的感觉。直到开始用 AI coding agent（Codex 生态），那些憋了很久的 Ideas 才一个个变成现实。这本手册记录我怎么用，也记录踩过的坑。**
 
 ---
 
