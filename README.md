@@ -38,7 +38,7 @@ Of course Codex's users include programmers. But I believe it also welcomes peop
 | 1 | 🚀 开始 | 装好、登录、说第一句话 | [full](playbook/en/full.md) |
 | 2 | 💬 说人话 | 指令公式：角色+任务+上下文+验收 | [full](playbook/en/full.md#chapter-3-the-secret-to-speaking-plainly) |
 | 3 | 📐 AGENTS.md | 让 Codex 记住你的规矩 | [full](playbook/en/full.md#chapter-4-agentsmd) |
-| 4 | 🧩 Skills | 把常用能力封装成技能包 | [full](playbook/en/full.md#chapter-5-skills) |
+| 4 | 🧩 核心功能 | Thread / 沙盒 / 插件 / Skill / MCP | [core-features](playbook/en/core-features.md) |
 | 5 | 🔄 工作流 | 从需求到交付的六步法 | [workflow](playbook/en/workflow.md) |
 | 6 | 🧰 模板库 | 8 个可直接复制的任务模板 | [workflow](playbook/en/workflow.md#task-template-library) |
 | 7 | ⚠️ 常见坑 | 五个血泪教训 | [full](playbook/en/full.md#chapter-7-common-traps) |
