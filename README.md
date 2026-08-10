@@ -33,6 +33,20 @@ All of it was built *with* Codex, not coded by hand. That is the point of this b
 
 You are the editor; it is the team. You decide what matters, it handles the mechanics. The skill isn't in coding — it's in saying clearly what you want, and setting guardrails so it doesn't wander.
 
+## If you don't know where to start
+
+Most people struggle with AI not because the tool is weak or the prompt isn't clever, but because they never handed it a real, specific, messy problem in full.
+
+So the first step isn't learning to write prompts. It's saying it out loud:
+
+1. Open the voice recorder on your phone, as if no one's listening. Talk about what you want to do, what's stuck, what you've been meaning to start.
+2. Don't organize your language. Don't aim for logic. Don't try to sound smart. Just talk — at least ten minutes.
+3. Send the recording to your computer and transcribe it with any tool you like (Feishu Miaoji, MacWhisper, Notta, iFlytek, or similar).
+4. Back in Codex, paste the transcript and add one line: "Don't jump to a solution. Ask me questions first — help me find what actually matters here, and keep asking until I say go."
+5. Hand over the wheel.
+
+Curiosity and follow-up questions beat any technique. The rest of this book is about turning what you said into something real.
+
 ## What's inside
 
 Ten chapters, each a self-contained how-to. Read in order, or jump to what you need.
