@@ -13,7 +13,7 @@
 >
 > 它是一个虚拟世界里的长期工程搭档，你们一起在实际世界共创了新的发明。你挥洒灵感，它为你搭建城堡的骨架，添加细节，它值得不断被探索，就像你开拓了世界的新的地图。
 >
-> *Codex is radically underestimated. Most usage stops at: open a project → drop a task → change code → done. It works — but that's a workstation used as a browser. Its real value is as a long-term engineering partner, not a slightly faster wrench.*
+> *Codex is severely underestimated. Most usage stops at: open a project, drop a task, change code, done. It works — but that's a workstation used to browse the web. What makes it interesting is letting it walk with a project from nothing to something, from birth to shape, through every iteration. It's a long-term partner in a virtual world, co-creating real inventions with you. You bring the vision; it builds the castle's framework and fills in the details. It deserves to be explored endlessly — like charting a new territory on the map.*
 
 *English · [中文](README.zh-CN.md)*
 
