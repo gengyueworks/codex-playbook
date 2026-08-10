@@ -35,7 +35,7 @@ You are the editor; it is the team. You decide what matters, it handles the mech
 
 ## If you don't know where to start
 
-Most people struggle with AI not because the tool is weak or the prompt isn't clever, but because they never handed it a real, specific, messy problem in full.
+Codex isn't thrown off by a messy brief — what it struggles with is a vague one-line ask followed by "just build it." Most people who find AI hard (any AI, not just Codex) aren't held back by a weak tool or fancy prompting. They've just never handed it a real, specific, messy problem in full.
 
 So the first step isn't learning to write prompts. It's saying it out loud:
 
@@ -45,7 +45,7 @@ So the first step isn't learning to write prompts. It's saying it out loud:
 4. Back in Codex, paste the transcript and add one line: "Don't jump to a solution. Ask me questions first — help me find what actually matters here, and keep asking until I say go."
 5. Hand over the wheel.
 
-Curiosity and follow-up questions beat any technique. The rest of this book is about turning what you said into something real.
+This is exactly what Codex is good at: you drop in a messy idea, it asks back before it builds, which gets around the "afraid to ask the wrong thing, so I don't ask at all" block. Curiosity and follow-up questions beat memorized prompt templates. The rest of this book is about turning what you said into something real.
 
 ## What's inside
 
