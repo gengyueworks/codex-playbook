@@ -7,11 +7,10 @@
 
 # Codex Playbook
 
-> **用了一段时间 Codex 之后，我最大的感受是：很多人其实低估了它。**
-> 现在很多人的用法基本是：打开项目文件夹 → 输入需求 → 等它改代码。这个当然已经很强了。但是如果只是这样用，感觉有点像买了一台高性能电脑，只拿来看网页。
-> **Codex 真正有意思的地方，是把它当成一个"长期合作的开发助手"，而不是一个高级代码补全工具。**
+> 大部分人用 Codex 的方式就一种：打开项目，扔个需求，让它改完——然后收工。这当然能干活，但就像买了台工作站只用来刷网页，大材小用了。
+> **Codex 应该是一个长期搭档，而不只是一把更快的扳手。** 知道怎么让它读项目、定方案、拆任务、审代码、甚至用便宜模型做子任务——它才真正开始替你承担工程。
 >
-> *After using Codex for a while, I've realized most people underestimate it. The typical usage is: open a project → describe a task → let it change code. That's already powerful. But using it only that way is like buying a high-performance PC just to browse the web. The interesting part of Codex is treating it as a long-term development partner, not a fancy autocomplete.*
+> *Most people use Codex one way: open a project, throw in a task, let it change things, then move on. It works — but it's like buying a workstation just to check email. Codex should be a long-term engineering partner, not just a faster wrench. Once you learn to let it read your project, design solutions, split tasks, review code, and run cheap sub-agents for the grunt work — that's when it actually starts carrying weight.*
 
 *English · [中文](README.zh-CN.md)*
 
