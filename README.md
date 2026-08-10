@@ -7,8 +7,11 @@
 
 # Codex Playbook
 
-> **Codex = 会说人话的程序员。** You say what you want, it builds it.
-> 一个不写代码的人，用 Codex 把想法变成现实的第一手手册。
+> **用了一段时间 Codex 之后，我最大的感受是：很多人其实低估了它。**
+> 现在很多人的用法基本是：打开项目文件夹 → 输入需求 → 等它改代码。这个当然已经很强了。但是如果只是这样用，感觉有点像买了一台高性能电脑，只拿来看网页。
+> **Codex 真正有意思的地方，是把它当成一个"长期合作的开发助手"，而不是一个高级代码补全工具。**
+>
+> *After using Codex for a while, I've realized most people underestimate it. The typical usage is: open a project → describe a task → let it change code. That's already powerful. But using it only that way is like buying a high-performance PC just to browse the web. The interesting part of Codex is treating it as a long-term development partner, not a fancy autocomplete.*
 
 *English · [中文](README.zh-CN.md)*
 
