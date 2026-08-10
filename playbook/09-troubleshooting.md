@@ -1,27 +1,4 @@
-# Codex Playbook · Full Edition
-
-> 一本面向非程序员的 Codex 实战手册。基于真实项目的使用经验，整理为系统化的方法论、可复用的工作流、以及可验证的案例。
-> Suggested companion chapters: [Core Features](core-features.md), [Standard Workflow](workflow.md), [Case Studies](../../examples/)
-
----
-
-## 目录
-
-1. [手册定位](#1-手册定位)
-2. [Codex 的执行模型](#2-codex-的执行模型)
-3. [AI First 工作习惯](#3-ai-first-工作习惯)
-4. [任务驱动：需求表述规范](#4-任务驱动需求表述规范)
-5. [标准工作流：需求到交付的六步管控](#5-标准工作流需求到交付的六步管控)
-6. [环境配置：Thread、Sandbox、AGENTS.md](#6-环境配置threadsandboxagentsmd)
-7. [能力扩展：Skill、Plugin、MCP](#7-能力扩展skillpluginmcp)
-8. [实战工作流](#8-实战工作流)
-9. [故障排查与方案切换](#9-故障排查与方案切换)
-10. [进阶用法：超越代码补全](#10-进阶用法超越代码补全)
-11. [案例索引](#11-案例索引)
-
----
-
-## 9. 故障排查与方案切换
+# 9. 故障排查与方案切换## 9. 故障排查与方案切换
 
 ### 判断框架
 

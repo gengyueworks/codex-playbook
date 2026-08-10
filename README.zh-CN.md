@@ -43,15 +43,16 @@ Codex 的用户当然包括程序员。但我想它也一定欢迎像我这样�
 |---|---|
 | [开始](playbook/01-getting-started.md) | 安装、登录、第一个命令 |
 | [执行模型](playbook/02-execution-model.md) | Codex 和对话工具的本质差异 |
-| [AI First](playbook/03-ai-first.md) | 五步习惯 + 真实案例 |
-| [需求表述](playbook/04-task-specification.md) | 指令公式、边界约束、表述对比 |
-| [六步工作流](playbook/workflow.md) | 从需求到交付的完整管控 |
-| [模板库](playbook/workflow.md#任务模板库) | 8 个可直接复制的 prompt 模板 |
-| [环境配置](playbook/06-environment.md) | Thread、Sandbox、AGENTS.md |
-| [能力扩展](playbook/core-features.md) | Skill、Plugin、MCP 三者关系 |
-| [实战工作流](playbook/08-real-world-workflows.md) | 写作转仓库、内容自动化、批量处理 |
+| [AI First](playbook/03-ai-first.md) | 五步习惯 + 三个实战案例 |
+| [需求表述](playbook/04-task-specification.md) | 指令公式、LLM 认知模型、迭代法 |
+| [六步工作流](playbook/05-standard-workflow.md) | 从需求到交付的完整管控 |
+| [模板库](playbook/workflow.md) | 8 个可直接复制的 prompt 模板 |
+| [环境配置](playbook/06-environment.md) | 四个基础设置、Thread、Sandbox |
+| [Skill 系统](playbook/07-capabilities.md) | 创建、优化、串联 Skill |
+| [实战工作流](playbook/08-real-world-workflows.md) | 五步骨架、harness 心法 |
 | [进阶用法](playbook/10-advanced.md) | 10 个超越代码补全的用法 |
 | [故障排查](playbook/09-troubleshooting.md) | 方案切换的判断框架 |
+| [核心功能](playbook/core-features.md) | Thread / Sandbox / Plugin / Skill / MCP |
 
 ---
 
@@ -61,20 +62,22 @@ Codex 的用户当然包括程序员。但我想它也一定欢迎像我这样�
 codex-playbook/
 ├── README.md              ← English
 ├── README.zh-CN.md        ← 中文
-├── playbook/              ← 手册正文
+├── playbook/
 │   ├── 01-getting-started.md
 │   ├── 02-execution-model.md
 │   ├── 03-ai-first.md
 │   ├── 04-task-specification.md
+│   ├── 05-standard-workflow.md
 │   ├── 06-environment.md
+│   ├── 07-capabilities.md
 │   ├── 08-real-world-workflows.md
 │   ├── 09-troubleshooting.md
 │   ├── 10-advanced.md
+│   ├── 11-case-index.md
 │   ├── core-features.md
 │   └── workflow.md
-├── playbook/en/           ← English manual
-├── examples/              ← 实战案例
-└── resources/             ← 资源导航
+├── examples/
+└── resources/
 ```
 
 ---
