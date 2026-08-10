@@ -1,8 +1,8 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Codex-Playbook-10a37f?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/4-手册章节-0366B5?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/3-实战案例-2ea44f?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/2-语言-8b949e?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/11-章节-0366B5?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/3-案例-2ea44f?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/ZH/EN-8b949e?style=for-the-badge"/>
 </p>
 
 # Codex Playbook
@@ -36,65 +36,61 @@ Of course Codex's users include programmers. But I believe it also welcomes peop
 
 ---
 
-## 📚 Content Overview / 内容速览
+## Content Overview / 内容速览
 
-| # | 章节 | 一句话核心 | 阅读 |
-|---|---|---|---|
-| 1 | 🚀 开始 | 装好、登录、说第一句话 | [full](playbook/en/full.md) |
-| 2 | 💬 说人话 | 指令公式：角色+任务+上下文+验收 | [full](playbook/en/full.md#chapter-3-the-secret-to-speaking-plainly) |
-| 3 | 📐 AGENTS.md | 让 Codex 记住你的规矩 | [full](playbook/en/full.md#chapter-4-agentsmd) |
-| 4 | 🧩 核心功能 | Thread / 沙盒 / 插件 / Skill / MCP | [core-features](playbook/en/core-features.md) |
-| 5 | 🔄 工作流 | 从需求到交付的六步法 | [workflow](playbook/en/workflow.md) |
-| 6 | 🧰 模板库 | 8 个可直接复制的任务模板 | [workflow](playbook/en/workflow.md#task-template-library) |
-| 7 | ⚠️ 常见坑 | 五个血泪教训 | [full](playbook/en/full.md#chapter-7-common-traps) |
-
-### Difficulty / 难度分级
-
-| 难度 | 内容 | 在哪 |
-|---|---|---|
-| 🟢 入门 | 3 分钟跑起来 | [mini](playbook/en/mini.md) |
-| 🔵 进阶 | 一页掌握核心 | [mini](playbook/en/mini.md) |
-| 🟣 实战 | 完整手册 + 真实案例 | [full](playbook/en/full.md) + [examples](examples/) |
-| 🔴 背下来 | 就记住这几条 | [nano](playbook/en/nano.md) |
+| 章节 | 核心 |
+|---|---|
+| [开始](playbook/en/01-getting-started.md) | 安装、登录、第一个命令 |
+| [执行模型](playbook/en/02-execution-model.md) | Codex 和对话工具的本质差异 |
+| [AI First](playbook/en/03-ai-first.md) | 五步习惯 + 真实案例 |
+| [需求表述](playbook/en/04-task-specification.md) | 指令公式、边界约束、表述对比 |
+| [六步工作流](playbook/en/workflow.md) | 从需求到交付的完整管控 |
+| [模板库](playbook/en/workflow.md#task-template-library) | 8 个可直接复制的 prompt 模板 |
+| [环境配置](playbook/en/05-environment.md) | Thread、Sandbox、AGENTS.md |
+| [能力扩展](playbook/en/core-features.md) | Skill、Plugin、MCP 三者关系 |
+| [实战工作流](playbook/en/06-workflows.md) | 写作转仓库、内容自动化、批量处理 |
+| [进阶用法](playbook/en/07-advanced.md) | 10 个超越代码补全的用法 |
+| [故障排查](playbook/en/08-troubleshooting.md) | 方案切换的判断框架 |
 
 ---
 
-## 📂 Repository Structure / 仓库结构
+## Repository Structure / 仓库结构
 
 ```
 codex-playbook/
-├── README.md              ← you are here (English)
-├── README.zh-CN.md        ← 中文版
+├── README.md              ← English
+├── README.zh-CN.md        ← 中文
 ├── playbook/              ← 手册正文 (Chinese)
-│   ├── full.md            ← 完整版
-│   ├── workflow.md        ← 六步法 + 任务模板库
-│   ├── mini.md            ← 一页版
-│   └── nano.md            ← 背下来版
-├── playbook/en/           ← The manual (English)
-│   ├── full.md
-│   ├── workflow.md
-│   ├── mini.md
-│   └── nano.md
+│   ├── 01-getting-started.md
+│   ├── 02-execution-model.md
+│   ├── 03-ai-first.md
+│   ├── 04-task-specification.md
+│   ├── 05-environment.md
+│   ├── 06-workflows.md
+│   ├── 07-advanced.md
+│   ├── 08-troubleshooting.md
+│   ├── core-features.md
+│   └── workflow.md
+├── playbook/en/           ← English
+│   ├── 01-getting-started.md
+│   ├── ... (same structure)
+│   ├── core-features.md
+│   └── workflow.md
 ├── examples/              ← 实战案例
-│   ├── daily-auto-update.md
-│   ├── repo-from-essay.md
-│   └── obsidian-sync.md
 └── resources/             ← 资源导航
-    ├── zhihu.md           ← 知乎教程精选
-    └── links.md           ← 外部链接
 ```
 
 ---
 
-## ⚡ Quick Start / 3 分钟上手
+## Quick Start / 3 分钟上手
 
 ```
 1. 装 Codex（App / CLI）
 2. 终端进入项目目录: codex
-3. 说人话："把这个 README 改得更吸引人"
+3. 说人话
 ```
 
-Done. That's it. **Everything else is habit.**
+Done. Everything else is habit.
 
 ---
 

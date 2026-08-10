@@ -1,8 +1,8 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Codex-Playbook-10a37f?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/4-手册章节-0366B5?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/3-实战案例-2ea44f?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/2-语言-8b949e?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/11-章节-0366B5?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/3-案例-2ea44f?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/ZH/EN-8b949e?style=for-the-badge"/>
 </p>
 
 # Codex Playbook
@@ -37,65 +37,57 @@ Codex 的用户当然包括程序员。但我想它也一定欢迎像我这样�
 
 ---
 
-## 📚 内容速览
+## 内容速览
 
-| # | 章节 | 一句话核心 | 阅读 |
-|---|---|---|---|
-| 1 | 🚀 开始 | 装好、登录、说第一句话 | [full](playbook/full.md) |
-| 2 | 💬 说人话 | 指令公式：角色+任务+上下文+验收 | [full](playbook/full.md#第三章) |
-| 3 | 📐 AGENTS.md | 让 Codex 记住你的规矩 | [full](playbook/full.md#第四章) |
-| 4 | 🧩 核心功能 | Thread / 沙盒 / 插件 / Skill / MCP | [core-features](playbook/core-features.md) |
-| 5 | 🔄 工作流 | 从需求到交付的六步法 | [workflow](playbook/workflow.md) |
-| 6 | 🧰 模板库 | 8 个可直接复制的任务模板 | [workflow](playbook/workflow.md#任务模板库) |
-| 7 | ⚠️ 常见坑 | 五个血泪教训 | [full](playbook/full.md#第七章) |
-
-### 难度分级
-
-| 难度 | 内容 | 在哪 |
-|---|---|---|
-| 🟢 入门 | 3 分钟跑起来 | [mini](playbook/mini.md) |
-| 🔵 进阶 | 一页掌握核心 | [mini](playbook/mini.md) |
-| 🟣 实战 | 完整手册 + 真实案例 | [full](playbook/full.md) + [examples](examples/) |
-| 🔴 背下来 | 就记住这几条 | [nano](playbook/nano.md) |
+| 章节 | 核心 |
+|---|---|
+| [开始](playbook/01-getting-started.md) | 安装、登录、第一个命令 |
+| [执行模型](playbook/02-execution-model.md) | Codex 和对话工具的本质差异 |
+| [AI First](playbook/03-ai-first.md) | 五步习惯 + 真实案例 |
+| [需求表述](playbook/04-task-specification.md) | 指令公式、边界约束、表述对比 |
+| [六步工作流](playbook/workflow.md) | 从需求到交付的完整管控 |
+| [模板库](playbook/workflow.md#任务模板库) | 8 个可直接复制的 prompt 模板 |
+| [环境配置](playbook/06-environment.md) | Thread、Sandbox、AGENTS.md |
+| [能力扩展](playbook/core-features.md) | Skill、Plugin、MCP 三者关系 |
+| [实战工作流](playbook/08-real-world-workflows.md) | 写作转仓库、内容自动化、批量处理 |
+| [进阶用法](playbook/10-advanced.md) | 10 个超越代码补全的用法 |
+| [故障排查](playbook/09-troubleshooting.md) | 方案切换的判断框架 |
 
 ---
 
-## 📂 仓库结构
+## 仓库结构
 
 ```
 codex-playbook/
-├── README.md              ← 你在这（中文）
-├── README.zh-CN.md        ← 中文版
+├── README.md              ← English
+├── README.zh-CN.md        ← 中文
 ├── playbook/              ← 手册正文
-│   ├── full.md            ← 完整版
-│   ├── workflow.md        ← 六步法 + 任务模板库
-│   ├── mini.md            ← 一页版
-│   └── nano.md            ← 背下来版
-├── playbook/en/           ← The manual (English)
-│   ├── full.md
-│   ├── workflow.md
-│   ├── mini.md
-│   └── nano.md
+│   ├── 01-getting-started.md
+│   ├── 02-execution-model.md
+│   ├── 03-ai-first.md
+│   ├── 04-task-specification.md
+│   ├── 06-environment.md
+│   ├── 08-real-world-workflows.md
+│   ├── 09-troubleshooting.md
+│   ├── 10-advanced.md
+│   ├── core-features.md
+│   └── workflow.md
+├── playbook/en/           ← English manual
 ├── examples/              ← 实战案例
-│   ├── daily-auto-update.md
-│   ├── repo-from-essay.md
-│   └── obsidian-sync.md
 └── resources/             ← 资源导航
-    ├── zhihu.md           ← 知乎教程精选
-    └── links.md           ← 外部链接
 ```
 
 ---
 
-## ⚡ 3 分钟上手
+## 3 分钟上手
 
 ```
 1. 装 Codex（App / CLI）
 2. 终端进入项目目录: codex
-3. 说人话："把这个 README 改得更吸引人"
+3. 说人话
 ```
 
-完事。就这么简单。**剩下的都是习惯问题。**
+剩下的都是习惯问题。
 
 ---
 
