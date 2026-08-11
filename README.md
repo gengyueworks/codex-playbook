@@ -59,6 +59,10 @@ The Chinese chapters are the primary experience narrative. The English chapters 
 
 Product interfaces and capabilities change. For current details, check the official [Codex documentation](https://developers.openai.com/codex/) and [OpenAI Help Center](https://help.openai.com/).
 
+## Long-term maintenance
+
+See the [tutorial roadmap](docs/en/roadmap.md), [maintenance operations](docs/en/maintenance-operations.md), and [weekly maintenance agent brief](docs/maintenance/weekly-agent-prompt.en.md).
+
 ## License
 
 MIT. See [LICENSE](LICENSE).

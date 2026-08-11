@@ -59,6 +59,10 @@ Codex 真正好用，依赖五个习惯：
 
 Codex、桌面应用、自动化和 GitHub 的界面会持续变化。涉及当前产品细节时，请同时查看[Codex 官方文档](https://developers.openai.com/codex/)和[OpenAI 帮助中心](https://help.openai.com/)。
 
+## 长期维护
+
+查看[教程路线图](docs/%E8%B7%AF%E7%BA%BF%E5%9B%BE.md)、[维护执行说明](docs/%E7%BB%B4%E6%8A%A4%E6%89%A7%E8%A1%8C%E8%AF%B4%E6%98%8E.md)和[每周维护 Agent 任务单](docs/maintenance/weekly-agent-prompt.zh-CN.md)。
+
 ## 许可证
 
 MIT，见[LICENSE](LICENSE)。

@@ -1,0 +1,6 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Read the guide
+    url: https://github.com/gengyueworks/codex-playbook
+    about: Start with the bilingual README and Chapter 01.
+
