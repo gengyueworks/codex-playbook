@@ -1,71 +1,64 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/Codex-Playbook-10a37f?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/10-章节-0366B5?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/非程序员-指南-2ea44f?style=for-the-badge"/>
-</p>
+# 非程序员使用 Codex 的经验手册
 
-# Codex 使用手册
+English · [A Practical Field Guide to Using Codex Without Writing Code](README.md)
 
-*English · [README.md](README.md)*
+> Codex 被严重低估了。它可以陪着一个项目从最初的想法，一直走到真正公开、持续生长的作品。
 
-一本写给**不会写代码的人**的 Codex 实战手册——作者自己也不会写代码。
+这是一本写给写作者、研究者、内容创作者和其他不会写代码的人的 Codex 实战手册。
 
-Codex 常被描述成一个写代码的工具，这个说法劝退了很多本来很厉害的人。这本手册站在反面：只要你用大白话把想要的结果说清楚，你就能用 Codex 真正建起并跑起一些东西。不需要任何编程基础。
+作者是中文内容创作者，注册 GitHub 多年，却一直觉得“我不会代码，所以做不出来”。开始使用 Codex 之后，文章、人物故事、音乐、科学内容、自动更新、资料整理和项目规则，逐步从脑子里的想法变成了公开仓库。
 
-## 谁写的，为什么值得读
+作者把自己称作 coder 世界里的吟游诗人：别人交付功能，我把故事、知识和想法做成开源作品。这本手册记录的，正是一个非程序员怎样把这种工作做起来。
 
-作者是正经文科出身——早先做旅行故事，现在写 AI 工具相关的内容。没有计算机学位，从没亲手写过一行能上线的代码。
+## 这本手册教什么
 
-让这本手册不只是"个人感想"的，是它背后那套正在运转的系统。它不是为写书现搭的演示，而是一套每天都在跑的真实配置：
+Codex 真正好用，依赖五个习惯：
 
-- GitHub 上 **41 个仓库**，装的都是原创写作和内容
-- 一份 **约 859 行的规矩文件（AGENTS.md）**，让每个项目保持一致
-- **5 个定时任务**，自己发内容、自己更新
-- **40 多个可复用 Skill**，把重复劳动压成一句话命令
+1. 说清楚你想留下什么结果。
+2. 把需要的材料放到它能读取的地方。
+3. 说清楚哪些能改，哪些必须保持原样。
+4. 看证据，不只听“已经完成”。
+5. 把好用的方法留下来，下一次继续用。
 
-上面这些，全都是**通过 Codex 产出**的，不是作者亲手写代码写出来的。这正是这本手册想说明的事：一个不会写代码的人，也能撑起这个量级。
+全书使用作者的真实案例：Codex for OSS 申请、GitHub 主页数据从 84 更新到 102、681 条收藏筛出 22 条、每天认识一位科学家项目、35 个视频转录、AGENTS.md 项目规则，以及 100 多个仓库的维护经验。
 
-## 核心一句话
+## 从这里开始
 
-> **Codex = 你用大白话描述想要的结果，它来干建造的活。**
+先读[第一章：为什么写这本手册](playbook/zh/01-%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%99%E8%BF%99%E6%9C%AC%E6%89%8B%E5%86%8C.md)，然后完成[第一个完整任务练习](examples/01-first-task/)。
 
-你是主编，它是团队。你定什么重要，它管具体执行。真正的本事不在写代码，而在把想要的东西说清楚，再设好护栏别让它跑偏。
+## 内容目录
 
-## 如果你不知道从哪开始
+| # | 章节 | 你会完成什么 |
+|---|---|---|
+| 01 | [为什么写这本手册](playbook/zh/01-%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%99%E8%BF%99%E6%9C%AC%E6%89%8B%E5%86%8C.md) | 从一个真实创作者的故事进入 Codex |
+| 02 | [第一次让 Codex 把一件事做完](playbook/zh/02-%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%AE%A9-Codex-%E6%8A%8A%E4%B8%80%E4%BB%B6%E4%BA%8B%E5%81%9A%E5%AE%8C.md) | 读文件夹、生成结果、检查原始材料 |
+| 03 | [怎么把话说清楚](playbook/zh/03-%E6%80%8E%E4%B9%88%E6%8A%8A%E8%AF%9D%E8%AF%B4%E6%B8%85%E6%A5%9A.md) | 把模糊草稿推进成可核对的申请文案 |
+| 04 | [先开对的文件夹，再动手](playbook/zh/04-%E5%85%88%E5%BC%80%E5%AF%B9%E7%9A%84%E6%96%87%E4%BB%B6%E5%A4%B9%E5%86%8D%E5%8A%A8%E6%89%8B.md) | 限定改动并检查 diff |
+| 05 | [让它记住你的规矩](playbook/zh/05-%E8%AE%A9%E5%AE%83%E8%AE%B0%E4%BD%8F%E4%BD%A0%E7%9A%84%E8%A7%84%E7%9F%A9.md) | 把项目习惯写进 AGENTS.md |
+| 06 | [把常用操作变成 Skill](playbook/zh/06-%E6%8A%8A%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C%E5%8F%98%E6%88%90-Skill.md) | 把重复流程保存成 Skill |
+| 07 | [让项目自己跑起来](playbook/zh/07-%E8%AE%A9%E9%A1%B9%E7%9B%AE%E8%87%AA%E5%B7%B1%E8%B7%91%E8%B5%B7%E6%9D%A5.md) | 建立可观察的 GitHub Actions 工作流 |
+| 08 | [抓资料，整理资料](playbook/zh/08-%E6%8A%93%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86%E8%B5%84%E6%96%99.md) | 保存、筛选并核验一大批资料 |
+| 09 | [遇到问题，先这样查](playbook/zh/09-%E9%81%87%E5%88%B0%E9%97%AE%E9%A2%98%E5%85%88%E8%BF%99%E6%A0%B7%E6%9F%A5.md) | 找到出错的步骤，再决定怎么修 |
+| 10 | [我的工具箱](playbook/zh/10-%E6%88%91%E7%9A%84%E5%B7%A5%E5%85%B7%E7%AE%B1.md) | 保存以后会反复使用的交代和检查 |
 
-Codex 不怕你给的东西乱——它怕的是你只丢一句模糊的要求，就催它出结果。很多人用不好它（其实是用不好任何 AI），不是因为工具不够强，也不是因为提示词不够高级，而是因为从来没有把一个真实、具体、又乱糟糟的问题，完整地交给它。
+## 模板和练习
 
-所以第一步，不是学怎么写提示词，而是**把它说出来**：
+- [任务交代模板](templates/zh/01-%E4%BB%BB%E5%8A%A1%E4%BA%A4%E4%BB%A3%E6%A8%A1%E6%9D%BF.md)
+- [项目规则模板](templates/zh/02-AGENTS.md-%E9%A1%B9%E7%9B%AE%E8%A7%84%E5%88%99%E6%A8%A1%E6%9D%BF.md)
+- [Skill 模板](templates/zh/03-SKILL%E6%A8%A1%E6%9D%BF.md)
+- [自动化检查清单](templates/zh/04-%E8%87%AA%E5%8A%A8%E5%8C%96%E6%A3%80%E6%9F%A5%E6%B8%85%E5%8D%95.md)
+- [README 模板](templates/zh/05-README%E6%A8%A1%E6%9D%BF.md)
+- [申请文案练习](examples/02-application-copy/)
+- [资料筛选练习](examples/03-source-collection/)
+- [日更自动化练习](examples/04-daily-workflow/)
+- [教材质量门禁](docs/%E8%B4%A8%E9%87%8F%E9%97%A8%E7%A6%81.md)
 
-1. 打开手机录音，就当身边没人。把你最近想做的、卡住的、一直没动手的事，全说出来。
-2. 别整理语言，别追求逻辑，别想着说漂亮。只管说，至少说 10 分钟。
-3. 把录音传到电脑，用任何你顺手的转录工具（飞书妙记、MacWhisper、Notta、讯飞听见都行）转成文字。
-4. 回到 Codex，把这段文字贴进去，加一句：「先别给方案，先向我提问，帮我搞清楚这里真正要紧的是什么，问到我说可以为止。」
-5. 剩下的，交给它。
+## 来源与版本
 
-这正是 Codex 擅长的事：你扔一段乱的想法进去，它先反问、再动手，正好绕开「怕问错所以不敢开口」的卡点。好奇心和持续追问，比背提示词模板重要。这本手册后面的章节，教的就是怎么把「说出来的东西」变成具体成果。
+中文章节是本手册的主要经验叙事，英文章节与中文一一对应，方便公开仓库读者阅读。详见[来源与写作说明](docs/%E6%9D%A5%E6%BA%90%E4%B8%8E%E5%86%99%E4%BD%9C%E8%AF%B4%E6%98%8E.md)、[案例索引](docs/%E6%A1%88%E4%BE%8B%E7%B4%A2%E5%BC%95.md)和[版本说明](docs/%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E.md)。
 
-## 内容一览
-
-十章，每章都是独立的操作指南。按顺序读，或跳到你需要的那章。
-
-| # | 中文 | English | 一句话 |
-|---|------|---------|--------|
-| 01 | [Codex 能帮你干什么](playbook/01-Codex能帮你干什么.md) | What Codex Can Do For You | 它帮你卸下的五类活儿 |
-| 02 | [怎么开始用](playbook/02-怎么开始用.md) | Getting Started | 装桌面端、切到 Codex、开个文件夹 |
-| 03 | [怎么把话说清楚](playbook/03-怎么把话说清楚.md) | Telling It What You Want | 说清结果、范围、不能碰的线 |
-| 04 | [让它别乱改东西](playbook/04-让它别乱改东西.md) | Keeping It From Editing The Wrong Things | 划边界，只动你指的地方 |
-| 05 | [让它记住你的规矩](playbook/05-让它记住你的规矩.md) | Making It Remember Your Rules | 一份它每次开工前先读的规则 |
-| 06 | [把常用操作变成 Skill](playbook/06-把常用操作变成Skill.md) | Turning Routines Into Skills | 把重复流程存成一条命令 |
-| 07 | [让项目自己跑起来](playbook/07-让项目自己跑起来.md) | Letting Projects Run Themselves | 不用你盯着也能跑的定时任务 |
-| 08 | [抓资料整理资料](playbook/08-抓资料整理资料.md) | Gathering and Organizing Material | 把零散笔记收拢成一份干净文件 |
-| 09 | [常见的坑](playbook/09-常见的坑.md) | Common Pitfalls | 六个会浪费一下午的错 |
-| 10 | [验过的模板](playbook/10-验过的模板.md) | Templates That Work | 能直接抄的规矩文件 + 仓库 README |
-
-## 怎么读
-
-新手从 01 开始。如果你已经打开过一次 Codex，直接跳 03（怎么把需求说清楚）和 05（规矩文件）——这两章改变最大。09 和 10 是拿它干正事之前必读的部分。
+Codex、桌面应用、自动化和 GitHub 的界面会持续变化。涉及当前产品细节时，请同时查看[Codex 官方文档](https://developers.openai.com/codex/)和[OpenAI 帮助中心](https://help.openai.com/)。
 
 ## 许可证
 
-基于 MIT 许可证发布。见 [LICENSE](LICENSE)。
+MIT，见[LICENSE](LICENSE)。

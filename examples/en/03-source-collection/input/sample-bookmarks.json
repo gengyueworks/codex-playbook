@@ -1,0 +1,21 @@
+[
+  {
+    "title": "Getting started with Codex",
+    "url": "https://example.com/codex-start",
+    "tags": ["Codex", "beginner"],
+    "saved_at": "2026-08-01"
+  },
+  {
+    "title": "Checks for an automated project",
+    "url": "https://example.com/automation-checks",
+    "tags": ["workflow", "automation"],
+    "saved_at": "2026-08-02"
+  },
+  {
+    "title": "A news discussion unrelated to Codex",
+    "url": "https://example.com/news",
+    "tags": ["news"],
+    "saved_at": "2026-08-03"
+  }
+]
+

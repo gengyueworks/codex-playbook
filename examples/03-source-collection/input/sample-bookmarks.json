@@ -1,0 +1,21 @@
+[
+  {
+    "title": "Codex App 入门示例",
+    "url": "https://example.com/codex-start",
+    "tags": ["Codex", "入门"],
+    "saved_at": "2026-08-01"
+  },
+  {
+    "title": "自动化项目的检查方法",
+    "url": "https://example.com/automation-checks",
+    "tags": ["工作流", "自动化"],
+    "saved_at": "2026-08-02"
+  },
+  {
+    "title": "与 Codex 无关的新闻讨论",
+    "url": "https://example.com/news",
+    "tags": ["新闻"],
+    "saved_at": "2026-08-03"
+  }
+]
+
