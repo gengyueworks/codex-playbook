@@ -61,7 +61,7 @@ Product interfaces and capabilities change. For current details, check the offic
 
 ## Long-term maintenance
 
-See the [tutorial roadmap](docs/en/roadmap.md), [maintenance operations](docs/en/maintenance-operations.md), and [weekly maintenance agent brief](docs/maintenance/weekly-agent-prompt.en.md).
+See the [tutorial roadmap](docs/en/roadmap.md), [maintenance operations](docs/en/maintenance-operations.md), and [weekly maintenance agent brief](docs/maintenance/weekly-agent-prompt.en.md). To report a problem or contribute, see [Contributing](CONTRIBUTING.md).
 
 ## License
 

@@ -6,10 +6,10 @@ The stable book, bilingual exercises, templates, case index, and quality gate ar
 
 ## Next: maintenance infrastructure
 
-- [ ] Enable the GitHub Actions quality gate.
-- [ ] Add Issue templates.
-- [ ] Create the weekly maintenance report path.
-- [ ] Write the first maintenance report.
+- [x] Enable the GitHub Actions quality gate.
+- [x] Add Issue templates.
+- [x] Create the weekly maintenance report path.
+- [x] Write the first maintenance report.
 
 ## Following: case growth
 

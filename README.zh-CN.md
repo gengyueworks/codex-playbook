@@ -61,7 +61,7 @@ Codex、桌面应用、自动化和 GitHub 的界面会持续变化。涉及当�
 
 ## 长期维护
 
-查看[教程路线图](docs/%E8%B7%AF%E7%BA%BF%E5%9B%BE.md)、[维护执行说明](docs/%E7%BB%B4%E6%8A%A4%E6%89%A7%E8%A1%8C%E8%AF%B4%E6%98%8E.md)和[每周维护 Agent 任务单](docs/maintenance/weekly-agent-prompt.zh-CN.md)。
+查看[教程路线图](docs/%E8%B7%AF%E7%BA%BF%E5%9B%BE.md)、[维护执行说明](docs/%E7%BB%B4%E6%8A%A4%E6%89%A7%E8%A1%8C%E8%AF%B4%E6%98%8E.md)和[每周维护 Agent 任务单](docs/maintenance/weekly-agent-prompt.zh-CN.md)。想报告问题或贡献内容，请看[贡献指南](CONTRIBUTING.zh-CN.md)。
 
 ## 许可证
 
