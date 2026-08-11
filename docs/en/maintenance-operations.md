@@ -54,6 +54,20 @@ docs/maintenance/
 
 Reports and drafts are grouped by month.
 
+## Maintenance push rule
+
+For pure maintenance output, agents may commit and push without waiting for the author, provided ALL of the following hold:
+
+- The quality gate passes (`scripts/quality_gate.py` and `git diff --check`);
+- No personal information: accounts, keys, personal email addresses, local paths, or unpublished material;
+- No edits to main chapters in `playbook/zh/` or `playbook/en/`;
+- No deletion or renaming of public files;
+- No change to GitHub Actions permissions.
+
+Applicable output: maintenance reports, drafts, contributing guides, roadmap checkboxes, and small fixes to README and docs.
+
+Anything touching main-book text, case facts, personal information, or unverified facts must stay at draft stage until the author confirms. Once pushed, content is public and cannot be retracted; that is the main exposure risk.
+
 ## Human approval points
 
 Stop at draft stage before editing main chapters, deleting public files, exposing private information, pushing to GitHub, or changing workflow permissions.

@@ -38,7 +38,8 @@ The report must contain:
 Hard limits:
 - Do not modify the main chapters under playbook/zh/ or playbook/en/.
 - Do not delete or rename public files.
-- Do not commit, push, or change workflow permissions.
+- Do not change workflow permissions.
+- Committing and pushing follow the Maintenance push rule in docs/en/maintenance-operations.md.
 - Do not write private paths, accounts, secrets, or unverified facts into the report.
 - Write “needs verification” when evidence is missing.
 
